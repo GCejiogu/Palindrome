@@ -1,18 +1,16 @@
-
-
-
 letters = input("please enter word here: ")
+All_caps = letters.upper()
 
 
-def palindrome(letters):
+def palindrome(All_caps):
 
-    Reverse = letters[::-1]
+    Reverse = All_caps[::-1]
 
-    if Reverse == letters:
+    if Reverse == All_caps:
         print("It's a Palindrome")
 
     else:
         print("It's not a Palindrome")
 
 
-palindrome(letters)
+palindrome(All_caps)
